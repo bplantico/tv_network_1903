@@ -15,9 +15,4 @@ class Show
     end
   end
 
-  def players_by_position(pos)
-    @players.find_all do |player|
-      player.position == pos
-    end
-  end
 end
